@@ -1,0 +1,48 @@
+.PostTodo {
+  padding: 50px;
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .bigBlock {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        .edit {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input {
+              width: 350px;
+              height: 40px;
+              cursor: pointer;
+            }
+          }
+          .block {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 10px;
+            img {
+              width: 330px;
+              height: 300px;
+              object-fit: cover;
+            }
+            .btn1 {
+              width: 100px;
+              height: 50px;
+            }
+            .btn2 {
+              width: 100px;
+              height: 50px;
+            }
+          }
+      }
+    }
+  }
+}
